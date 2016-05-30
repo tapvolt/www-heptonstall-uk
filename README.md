@@ -1,2 +1,2 @@
-# www-heptonstall-uk
-www.heptonstall.uk 
+# www-heptonstall-info
+www.heptonstall.info
