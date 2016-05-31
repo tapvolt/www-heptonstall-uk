@@ -6,10 +6,8 @@
     }
 
     window.onload = function () {
-        var timeout = 900000; // 15 minutes 
-        setTimeout( function () {
-            setInterval(timer, timeout);
-        }, timeout)
+        var timeout = 900000; // 15 minutes
+        setInterval(timer, timeout);
     };
 
 })();
