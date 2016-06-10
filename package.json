@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Weather Webcam from Heptonstall, Yorkshire.",
   "main": "index.html",
+  "engines": {
+    "node": "6.2.1"
+  },
   "scripts": {
     "start": "npm run lite",
     "lite": "lite-server",
