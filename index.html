@@ -1,41 +1,63 @@
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="A webcam image taken from Heptonstall village regularly updated every 15 minutes.">
-    <meta name="keywords" content="Heptonstall, webcam">
-    <meta name="author" content="Gareth Jackson">
-    <meta name="google-site-verification" content="fUtcApwfT5yynecCg90Kjp8i72MUusrgO-2xHIpfWMg" />
-    <meta http-equiv="cache-control" content="no-cache">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="js/timer.js"></script>
-</head>
-<body>
-    <p><h1>Heptonstall Weather Webcam</h1></p>
-    <p><img id="image" src="image.jpg" alt="Webcam photo from Heptonstall looking south west towards Stoodley Pike Monument."></p>
-    <p>This image is taken from a live feed of a home security camera looking out from Heptonstall.
-        An image is taken every 15 minutes and uploaded to this website,
-        if you stay on this page long enough the image will automatically refresh within the page.</p>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="A weather webcam photo taken from Heptonstall village regularly updated every 15 minutes.">
+        <meta name="keywords" content="Heptonstall, Yorkshire, Weather, Webcam, Photo">
+        <meta name="author" content="Gareth Jackson">
+        <meta name="google-site-verification" content="fUtcApwfT5yynecCg90Kjp8i72MUusrgO-2xHIpfWMg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="cache-control" content="no-cache">
 
-    <p>The live feed of the security camera is recorded 24-7 to a computer and offers remote online access and email notifications on detected movement.</p>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <p>If you are interested in home security systems and would like to know more please contact me via
-        <a href="mailto:gareth.jackson@gmail.com?subject=www.heptonstall.info">email</a>.</p>
+        <!-- 1. Load libraries -->
+        <!-- IE required polyfill -->
+        <script src="node_modules/core-js/client/shim.min.js"></script>
 
-    <p>This project code can be found on <a href="https://github.com/tapvolt/www-heptonstall-info">GitHub.com</a></p>
-    <p>
-        <a href="http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=IHEPTONS2">
-            <img src="http://banners.wunderground.com/cgi-bin/banner/ban/wxBanner?bannertype=wxstnsticker_both&weatherstationcount=IHEPTONS2"
-                 height="160" width="160" border="0" alt="Weather Underground PWS IHEPTONS2" />
-        </a>
-    </p>
-</body>
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        <script src="node_modules/zone.js/dist/zone.js"></script>
+        <script src="node_modules/reflect-metadata/Reflect.js"></script>
 
-        ga('create', 'UA-28326096-3', 'auto');
-        ga('send', 'pageview');
-    </script>
+        <script src="node_modules/rxjs/bundles/Rx.umd.js"></script>
+        <script src="node_modules/@angular/core/core.umd.js"></script>
+        <script src="node_modules/@angular/common/common.umd.js"></script>
+        <script src="node_modules/@angular/compiler/compiler.umd.js"></script>
+        <script src="node_modules/@angular/platform-browser/platform-browser.umd.js"></script>
+        <script src="node_modules/@angular/platform-browser-dynamic/platform-browser-dynamic.umd.js"></script>
+
+        <!-- 2. Load our 'modules' -->
+        <script src='app/app.component.js'></script>
+        <script src='app/main.js'></script>
+
+        <script src="js/timer.js"></script>
+    </head>
+    <body>
+        <my-app>Loading...</my-app>
+        <p><img id="image" src="image.jpg" alt="Weather webcam photo from Heptonstall looking south west towards Stoodley Pike Monument."></p>
+        <p>This image is taken from a live feed of a home security camera looking out from Heptonstall at the weather.
+            An image is taken every 15 minutes and uploaded to this website,
+            if you stay on this page long enough the image will automatically refresh within the page.</p>
+
+        <p>The live feed of the security camera is recorded 24-7 to a computer and offers remote online access and email notifications on detected movement.</p>
+
+        <p>If you are interested in home security systems and would like to know more please contact me via
+            <a href="mailto:gareth.jackson@gmail.com?subject=www.heptonstall.info">email</a>.
+        </p>
+
+        <p>This project code can be found on <a href="https://github.com/tapvolt/www-heptonstall-info">GitHub.com</a></p>
+        <p>
+            <a href="http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=IHEPTONS2">
+                <img src="http://banners.wunderground.com/cgi-bin/banner/ban/wxBanner?bannertype=wxstnsticker_both&weatherstationcount=IHEPTONS2"
+                     height="160" width="160" border="0" alt="Weather Underground PWS IHEPTONS2" />
+            </a>
+        </p>
+    </body>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-28326096-3', 'auto');
+            ga('send', 'pageview');
+        </script>
 </html>
