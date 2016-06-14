@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-rm -rf node_modules
+echo Removing node_modules directory
+rm -rf ../node_modules
