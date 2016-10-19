@@ -17,8 +17,5 @@ uglify -s www/js/bundle.js -o __deployme/js/bundle.js
 cp www/index.html __deployme/index.html
 cp -r www/images/* __deployme/images/
 
-# remove the dummy image
-rm __deployme/images/image.jpg
-
 # done
 date; echo;
