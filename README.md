@@ -9,3 +9,6 @@ npm install
 
 # Start
 npm start
+
+# Build
+./node_modules/.bin/watch "sh scripts/build.sh" js/source css
