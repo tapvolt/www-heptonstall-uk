@@ -1,4 +1,12 @@
 .idea
-image.jpg
 weatherData.json
 node_modules
+/npm-debug.log
+
+/www/css/bundle.css
+/www/js/bundle.js
+
+__deployme/*
+
+/www/js/build/*
+
