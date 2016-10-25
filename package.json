@@ -24,15 +24,14 @@
   },
   "homepage": "https://github.com/tapvolt/www-heptonstall-info#readme",
   "dependencies": {
-    "react": "^15.3.2",
-    "react-dom": "^15.3.2",
     "babel-cli": "^6.16.0",
-    "browserify": "^13.1.0",
-    "cssshrink": "0.0.5",
     "babel-preset-es2015": "^6.16.0",
     "babel-preset-react": "^6.16.0",
-    "uglify": "0.1.5",
-    "grunt": "~0.4.5"
+    "browserify": "^13.1.0",
+    "cssshrink": "0.0.5",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "uglify": "0.1.5"
   },
   "devDependencies": {
     "watch": "^1.0.1"
