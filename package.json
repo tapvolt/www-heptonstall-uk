@@ -31,7 +31,8 @@
     "cssshrink": "0.0.5",
     "babel-preset-es2015": "^6.16.0",
     "babel-preset-react": "^6.16.0",
-    "uglify": ""
+    "uglify": "0.1.5",
+    "grunt-cli": "0.1.13"
   },
   "devDependencies": {
     "watch": "^1.0.1"
