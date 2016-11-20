@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # clean up lat version
 rm -rf __deployme
 mkdir -p __deployme/js

@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # js transform
 ./node_modules/.bin/babel --presets react,es2015 www/js/source -d www/js/build/
 
