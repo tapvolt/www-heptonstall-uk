@@ -12,7 +12,7 @@ class Contact extends React.Component{
         return(
             <p className="Contact">
                 If you are interested in home security systems
-                and would like to know more please contact me via
+                and would like to know more please contact me via&nbsp;
                 <a href={contact}>email</a>.
             </p>
         );
