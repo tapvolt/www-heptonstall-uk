@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Github extends React.Component{
+class Github extends React.Component {
 
     render() {
         return(

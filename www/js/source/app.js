@@ -17,7 +17,7 @@ ReactDOM.render(
 
         <Copy />
 
-        {/*<Weather />*/}
+        <Weather />
 
     </div>,
     document.getElementById('app')
