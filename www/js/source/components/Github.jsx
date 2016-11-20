@@ -5,7 +5,7 @@ class Github extends React.Component{
     render() {
         return(
             <p className="Github">
-                This project code can be found on
+                This project code can be found on&nbsp;
                 <a href={this.props.url}>github.com</a>.
             </p>
         );
