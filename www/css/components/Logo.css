@@ -1,5 +1,5 @@
 .Logo {
-    background-image: url('../../images/logo.png');
+    float:left;
     background-size: cover;
     display: inline-block;
     height: 150px;
