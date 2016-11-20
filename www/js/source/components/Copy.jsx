@@ -3,7 +3,7 @@ import React from 'react';
 import Contact from './Contact';
 import Github from './Github';
 
-class Copy extends React.Component{
+class Copy extends React.Component {
 
     render() {
         return(
