@@ -6,11 +6,16 @@ class Header extends React.Component {
 
     render() {
         return (
-            <div className="Header">
-                <Logo />
-                <div>
-                    <h1>Heptonstall Weather Webcam</h1>
+            <div className="row">
+
+                <div className="column column-1">
+                    <Logo />
                 </div>
+
+                <div className="column column-11">
+                    <h1 className="Header">Heptonstall Weather Webcam</h1>
+                </div>
+
             </div>
         );
     }

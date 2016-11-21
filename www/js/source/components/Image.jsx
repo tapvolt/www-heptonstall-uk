@@ -28,7 +28,13 @@ class Image extends React.Component {
     }
 
     render() {
-        return <img {...this.state}/>;
+        return (
+            <div className="row">
+                <div className="column column-11">
+                    <img {...this.state}/>
+                </div>
+            </div>
+        );
     }
 }
 
