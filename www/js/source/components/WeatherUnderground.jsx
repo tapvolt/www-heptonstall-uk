@@ -4,12 +4,16 @@ class WeatherUnderground extends React.Component {
 
     render() {
         return (
-            <a href={this.props.href + this.props.id}>
-                <img
-                    src={this.props.src + this.props.id}
-                    height="160" width="160"
-                    alt={this.props.alt + this.props.id}/>
-            </a>
+            <div className="row">
+                <div className="column coulmn-12">
+                    <a href={this.props.href + this.props.id}>
+                        <img
+                            src={this.props.src + this.props.id}
+                            height="160" width="160"
+                            alt={this.props.alt + this.props.id}/>
+                    </a>
+                </div>
+            </div>
         );
     }
 }
