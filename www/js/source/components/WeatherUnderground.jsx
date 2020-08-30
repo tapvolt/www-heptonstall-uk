@@ -27,7 +27,7 @@ WeatherUnderground.propTypes = {
 
 WeatherUnderground.defaultProps = {
     id: 'IHEPTONS2',
-    href: 'http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=',
+    href: 'https://www.wunderground.com/dashboard/pws/',
     src: 'http://banners.wunderground.com/cgi-bin/banner/ban/wxBanner?bannertype=wxstnsticker_both&weatherstationcount=',
     alt: 'Weather Underground PWS '
 };
