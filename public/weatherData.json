@@ -1,0 +1,1124 @@
+{
+  "dataVersion":"2",
+  "uri":"/87417343-049D-4D9A-9741-4BA1D8A12821.json",
+  "time":"2020-08-31 17:46:00 +0100",
+  "software":{
+    "name":"WeatherSnoop 3",
+    "version":"3.2.5 (1187)"
+  },
+  "agent":{
+    "name":"Maplin N96GY/N96FY",
+    "description":"Maplin is an electronics company in the United Kingdom which sells the USB Wireless Touchscreen Weather Forecaster models N96GY and N96FY. These stations connect to your Mac via the USB port.",
+    "site":{
+      "name":"Unnamed Site",
+      "location":"Unnamed Location",
+      "longitude":"0.0",
+      "latitude":"0.0",
+      "elevation":"0 ft",
+      "successfulTransactions":"43",
+      "lastSuccessfulTransaction":"2020-08-31 16:45:19 +0000",
+      "failedTransactions":"0",
+      "lastFailedTransaction":"2020-08-31 16:45:19 +0000"
+    },
+    "properties":{
+      "absoluteBarometricPressure":{
+        "name":"Barometric Pressure (Absolute)",
+        "type":"Pressure",
+        "time":"2020-08-31 17:45:19 +0100",
+        "unit":"mb",
+        "values":[
+          {
+            "type":"float",
+            "unit":"inHg",
+            "label":"Inches Of Mercury",
+            "value":"29.23"
+          },
+          {
+            "type":"int",
+            "unit":"cb",
+            "label":"Centibars",
+            "value":"99"
+          },
+          {
+            "type":"int",
+            "unit":"mb",
+            "label":"Millibars",
+            "value":"990"
+          }
+        ],
+        "minValueToday":{
+          "time":"2020-08-31 17:37:19 +0100",
+          "values":[
+            {
+              "type":"float",
+              "unit":"inHg",
+              "label":"Inches Of Mercury",
+              "value":"29.22"
+            },
+            {
+              "type":"int",
+              "unit":"cb",
+              "label":"Centibars",
+              "value":"99"
+            },
+            {
+              "type":"int",
+              "unit":"mb",
+              "label":"Millibars",
+              "value":"989"
+            }
+          ]
+        },
+        "maxValueToday":{
+          "time":"2020-08-31 09:56:11 +0100",
+          "values":[
+            {
+              "type":"float",
+              "unit":"inHg",
+              "label":"Inches Of Mercury",
+              "value":"29.28"
+            },
+            {
+              "type":"int",
+              "unit":"cb",
+              "label":"Centibars",
+              "value":"99"
+            },
+            {
+              "type":"int",
+              "unit":"mb",
+              "label":"Millibars",
+              "value":"991"
+            }
+          ]
+        }
+      },
+      "relativeBarometricPressure":{
+        "name":"Barometric Pressure (Relative)",
+        "type":"Pressure",
+        "time":"2020-08-31 17:45:19 +0100",
+        "unit":"mb",
+        "values":[
+          {
+            "type":"float",
+            "unit":"inHg",
+            "label":"Inches Of Mercury",
+            "value":"29.23"
+          },
+          {
+            "type":"int",
+            "unit":"cb",
+            "label":"Centibars",
+            "value":"99"
+          },
+          {
+            "type":"int",
+            "unit":"mb",
+            "label":"Millibars",
+            "value":"990"
+          }
+        ],
+        "minValueToday":{
+          "time":"2020-08-31 17:37:19 +0100",
+          "values":[
+            {
+              "type":"float",
+              "unit":"inHg",
+              "label":"Inches Of Mercury",
+              "value":"29.22"
+            },
+            {
+              "type":"int",
+              "unit":"cb",
+              "label":"Centibars",
+              "value":"99"
+            },
+            {
+              "type":"int",
+              "unit":"mb",
+              "label":"Millibars",
+              "value":"989"
+            }
+          ]
+        },
+        "maxValueToday":{
+          "time":"2020-08-31 09:56:11 +0100",
+          "values":[
+            {
+              "type":"float",
+              "unit":"inHg",
+              "label":"Inches Of Mercury",
+              "value":"29.28"
+            },
+            {
+              "type":"int",
+              "unit":"cb",
+              "label":"Centibars",
+              "value":"99"
+            },
+            {
+              "type":"int",
+              "unit":"mb",
+              "label":"Millibars",
+              "value":"991"
+            }
+          ]
+        }
+      },
+      "indoorTemperature":{
+        "name":"Indoor Temperature",
+        "type":"Temperature",
+        "time":"2020-08-31 17:44:31 +0100",
+        "unit":"C",
+        "values":[
+          {
+            "type":"float",
+            "unit":"F",
+            "label":"Fahrenheit",
+            "value":"70.0"
+          },
+          {
+            "type":"float",
+            "unit":"C",
+            "label":"Celsius",
+            "value":"21.1"
+          }
+        ],
+        "minValueToday":{
+          "time":"2020-08-31 11:06:11 +0100",
+          "values":[
+            {
+              "type":"float",
+              "unit":"F",
+              "label":"Fahrenheit",
+              "value":"67.5"
+            },
+            {
+              "type":"float",
+              "unit":"C",
+              "label":"Celsius",
+              "value":"19.7"
+            }
+          ]
+        },
+        "maxValueToday":{
+          "time":"2020-08-31 00:00:00 +0100",
+          "values":[
+            {
+              "type":"float",
+              "unit":"F",
+              "label":"Fahrenheit",
+              "value":"72.3"
+            },
+            {
+              "type":"float",
+              "unit":"C",
+              "label":"Celsius",
+              "value":"22.4"
+            }
+          ]
+        }
+      },
+      "indoorHumidity":{
+        "name":"Indoor Humidity",
+        "type":"Humidity",
+        "time":"2020-08-31 17:41:19 +0100",
+        "unit":"pct",
+        "values":[
+          {
+            "type":"int",
+            "unit":"pct",
+            "label":"Percent",
+            "value":"56"
+          }
+        ],
+        "minValueToday":{
+          "time":"2020-08-31 09:55:11 +0100",
+          "values":[
+            {
+              "type":"int",
+              "unit":"pct",
+              "label":"Percent",
+              "value":"48"
+            }
+          ]
+        },
+        "maxValueToday":{
+          "time":"2020-08-31 16:58:11 +0100",
+          "values":[
+            {
+              "type":"int",
+              "unit":"pct",
+              "label":"Percent",
+              "value":"58"
+            }
+          ]
+        }
+      },
+      "indoorDewPoint":{
+        "name":"Indoor Dew Point",
+        "type":"Temperature",
+        "time":"2020-08-31 17:44:31 +0100",
+        "unit":"C",
+        "values":[
+          {
+            "type":"float",
+            "unit":"F",
+            "label":"Fahrenheit",
+            "value":"53.6"
+          },
+          {
+            "type":"float",
+            "unit":"C",
+            "label":"Celsius",
+            "value":"12.0"
+          }
+        ],
+        "minValueToday":{
+          "time":"2020-08-31 09:55:11 +0100",
+          "values":[
+            {
+              "type":"float",
+              "unit":"F",
+              "label":"Fahrenheit",
+              "value":"47.6"
+            },
+            {
+              "type":"float",
+              "unit":"C",
+              "label":"Celsius",
+              "value":"8.6"
+            }
+          ]
+        },
+        "maxValueToday":{
+          "time":"2020-08-31 00:00:00 +0100",
+          "values":[
+            {
+              "type":"float",
+              "unit":"F",
+              "label":"Fahrenheit",
+              "value":"55.7"
+            },
+            {
+              "type":"float",
+              "unit":"C",
+              "label":"Celsius",
+              "value":"13.2"
+            }
+          ]
+        }
+      },
+      "indoorHeatIndex":{
+        "name":"Indoor Heat Index",
+        "type":"Temperature",
+        "time":"2020-08-31 17:44:31 +0100",
+        "unit":"C",
+        "values":[
+          {
+            "type":"float",
+            "unit":"F",
+            "label":"Fahrenheit",
+            "value":"70.0"
+          },
+          {
+            "type":"float",
+            "unit":"C",
+            "label":"Celsius",
+            "value":"21.1"
+          }
+        ],
+        "minValueToday":{
+          "time":"2020-08-31 11:06:11 +0100",
+          "values":[
+            {
+              "type":"float",
+              "unit":"F",
+              "label":"Fahrenheit",
+              "value":"67.5"
+            },
+            {
+              "type":"float",
+              "unit":"C",
+              "label":"Celsius",
+              "value":"19.7"
+            }
+          ]
+        },
+        "maxValueToday":{
+          "time":"2020-08-31 00:00:00 +0100",
+          "values":[
+            {
+              "type":"float",
+              "unit":"F",
+              "label":"Fahrenheit",
+              "value":"72.3"
+            },
+            {
+              "type":"float",
+              "unit":"C",
+              "label":"Celsius",
+              "value":"22.4"
+            }
+          ]
+        }
+      },
+      "outdoorTemperature":{
+        "name":"Outdoor Temperature",
+        "type":"Temperature",
+        "time":"2020-08-31 17:45:19 +0100",
+        "unit":"C",
+        "values":[
+          {
+            "type":"float",
+            "unit":"F",
+            "label":"Fahrenheit",
+            "value":"58.5"
+          },
+          {
+            "type":"float",
+            "unit":"C",
+            "label":"Celsius",
+            "value":"14.7"
+          }
+        ],
+        "minValueToday":{
+          "time":"2020-08-31 00:49:50 +0100",
+          "values":[
+            {
+              "type":"float",
+              "unit":"F",
+              "label":"Fahrenheit",
+              "value":"43.0"
+            },
+            {
+              "type":"float",
+              "unit":"C",
+              "label":"Celsius",
+              "value":"6.1"
+            }
+          ]
+        },
+        "maxValueToday":{
+          "time":"2020-08-31 14:31:11 +0100",
+          "values":[
+            {
+              "type":"float",
+              "unit":"F",
+              "label":"Fahrenheit",
+              "value":"63.9"
+            },
+            {
+              "type":"float",
+              "unit":"C",
+              "label":"Celsius",
+              "value":"17.7"
+            }
+          ]
+        }
+      },
+      "outdoorHumidity":{
+        "name":"Outdoor Humidity",
+        "type":"Humidity",
+        "time":"2020-08-31 17:45:19 +0100",
+        "unit":"pct",
+        "values":[
+          {
+            "type":"int",
+            "unit":"pct",
+            "label":"Percent",
+            "value":"58"
+          }
+        ],
+        "minValueToday":{
+          "time":"2020-08-31 14:32:11 +0100",
+          "values":[
+            {
+              "type":"int",
+              "unit":"pct",
+              "label":"Percent",
+              "value":"49"
+            }
+          ]
+        },
+        "maxValueToday":{
+          "time":"2020-08-31 05:47:17 +0100",
+          "values":[
+            {
+              "type":"int",
+              "unit":"pct",
+              "label":"Percent",
+              "value":"93"
+            }
+          ]
+        }
+      },
+      "outdoorDewPoint":{
+        "name":"Outdoor Dew Point",
+        "type":"Temperature",
+        "time":"2020-08-31 17:45:19 +0100",
+        "unit":"C",
+        "values":[
+          {
+            "type":"float",
+            "unit":"F",
+            "label":"Fahrenheit",
+            "value":"43.7"
+          },
+          {
+            "type":"float",
+            "unit":"C",
+            "label":"Celsius",
+            "value":"6.5"
+          }
+        ],
+        "minValueToday":{
+          "time":"2020-08-31 10:58:11 +0100",
+          "values":[
+            {
+              "type":"float",
+              "unit":"F",
+              "label":"Fahrenheit",
+              "value":"39.3"
+            },
+            {
+              "type":"float",
+              "unit":"C",
+              "label":"Celsius",
+              "value":"4.1"
+            }
+          ]
+        },
+        "maxValueToday":{
+          "time":"2020-08-31 15:14:11 +0100",
+          "values":[
+            {
+              "type":"float",
+              "unit":"F",
+              "label":"Fahrenheit",
+              "value":"49.1"
+            },
+            {
+              "type":"float",
+              "unit":"C",
+              "label":"Celsius",
+              "value":"9.5"
+            }
+          ]
+        }
+      },
+      "outdoorHeatIndex":{
+        "name":"Outdoor Heat Index",
+        "type":"Temperature",
+        "time":"2020-08-31 17:45:19 +0100",
+        "unit":"C",
+        "values":[
+          {
+            "type":"float",
+            "unit":"F",
+            "label":"Fahrenheit",
+            "value":"58.5"
+          },
+          {
+            "type":"float",
+            "unit":"C",
+            "label":"Celsius",
+            "value":"14.7"
+          }
+        ],
+        "minValueToday":{
+          "time":"2020-08-31 00:49:50 +0100",
+          "values":[
+            {
+              "type":"float",
+              "unit":"F",
+              "label":"Fahrenheit",
+              "value":"43.0"
+            },
+            {
+              "type":"float",
+              "unit":"C",
+              "label":"Celsius",
+              "value":"6.1"
+            }
+          ]
+        },
+        "maxValueToday":{
+          "time":"2020-08-31 14:31:11 +0100",
+          "values":[
+            {
+              "type":"float",
+              "unit":"F",
+              "label":"Fahrenheit",
+              "value":"63.9"
+            },
+            {
+              "type":"float",
+              "unit":"C",
+              "label":"Celsius",
+              "value":"17.7"
+            }
+          ]
+        }
+      },
+      "windSpeed":{
+        "name":"Wind Speed",
+        "type":"Velocity",
+        "time":"2020-08-31 17:45:19 +0100",
+        "unit":"mps",
+        "values":[
+          {
+            "type":"float",
+            "unit":"mph",
+            "label":"Miles Per Hour",
+            "value":"3.8"
+          },
+          {
+            "type":"float",
+            "unit":"kph",
+            "label":"Kilometers Per Hour",
+            "value":"6.1"
+          },
+          {
+            "type":"float",
+            "unit":"mps",
+            "label":"Meters Per Second",
+            "value":"1.7"
+          },
+          {
+            "type":"float",
+            "unit":"kn",
+            "label":"Knots",
+            "value":"3.3"
+          }
+        ],
+        "minValueToday":{
+          "time":"2020-08-31 00:05:28 +0100",
+          "values":[
+            {
+              "type":"float",
+              "unit":"mph",
+              "label":"Miles Per Hour",
+              "value":"0.0"
+            },
+            {
+              "type":"float",
+              "unit":"kph",
+              "label":"Kilometers Per Hour",
+              "value":"0.0"
+            },
+            {
+              "type":"float",
+              "unit":"mps",
+              "label":"Meters Per Second",
+              "value":"0.0"
+            },
+            {
+              "type":"float",
+              "unit":"kn",
+              "label":"Knots",
+              "value":"0.0"
+            }
+          ]
+        },
+        "maxValueToday":{
+          "time":"2020-08-31 14:12:11 +0100",
+          "values":[
+            {
+              "type":"float",
+              "unit":"mph",
+              "label":"Miles Per Hour",
+              "value":"4.5"
+            },
+            {
+              "type":"float",
+              "unit":"kph",
+              "label":"Kilometers Per Hour",
+              "value":"7.2"
+            },
+            {
+              "type":"float",
+              "unit":"mps",
+              "label":"Meters Per Second",
+              "value":"2.0"
+            },
+            {
+              "type":"float",
+              "unit":"kn",
+              "label":"Knots",
+              "value":"3.9"
+            }
+          ]
+        }
+      },
+      "windGust":{
+        "name":"Wind Gust",
+        "type":"Velocity",
+        "time":"2020-08-31 17:45:19 +0100",
+        "unit":"mps",
+        "values":[
+          {
+            "type":"float",
+            "unit":"mph",
+            "label":"Miles Per Hour",
+            "value":"6.0"
+          },
+          {
+            "type":"float",
+            "unit":"kph",
+            "label":"Kilometers Per Hour",
+            "value":"9.7"
+          },
+          {
+            "type":"float",
+            "unit":"mps",
+            "label":"Meters Per Second",
+            "value":"2.7"
+          },
+          {
+            "type":"float",
+            "unit":"kn",
+            "label":"Knots",
+            "value":"5.2"
+          }
+        ],
+        "minValueToday":{
+          "time":"2020-08-31 01:57:50 +0100",
+          "values":[
+            {
+              "type":"float",
+              "unit":"mph",
+              "label":"Miles Per Hour",
+              "value":"0.0"
+            },
+            {
+              "type":"float",
+              "unit":"kph",
+              "label":"Kilometers Per Hour",
+              "value":"0.0"
+            },
+            {
+              "type":"float",
+              "unit":"mps",
+              "label":"Meters Per Second",
+              "value":"0.0"
+            },
+            {
+              "type":"float",
+              "unit":"kn",
+              "label":"Knots",
+              "value":"0.0"
+            }
+          ]
+        },
+        "maxValueToday":{
+          "time":"2020-08-31 14:32:11 +0100",
+          "values":[
+            {
+              "type":"float",
+              "unit":"mph",
+              "label":"Miles Per Hour",
+              "value":"8.3"
+            },
+            {
+              "type":"float",
+              "unit":"kph",
+              "label":"Kilometers Per Hour",
+              "value":"13.3"
+            },
+            {
+              "type":"float",
+              "unit":"mps",
+              "label":"Meters Per Second",
+              "value":"3.7"
+            },
+            {
+              "type":"float",
+              "unit":"kn",
+              "label":"Knots",
+              "value":"7.2"
+            }
+          ]
+        }
+      },
+      "windDirection":{
+        "name":"Wind Direction",
+        "type":"Direction",
+        "time":"2020-08-31 17:45:19 +0100",
+        "unit":"deg",
+        "values":[
+          {
+            "type":"int",
+            "unit":"deg",
+            "label":"Degrees",
+            "value":"292"
+          }
+        ],
+        "minValueToday":{
+          "time":"2020-08-31 14:39:11 +0100",
+          "values":[
+            {
+              "type":"int",
+              "unit":"deg",
+              "label":"Degrees",
+              "value":"45"
+            }
+          ]
+        },
+        "maxValueToday":{
+          "time":"2020-08-31 00:00:00 +0100",
+          "values":[
+            {
+              "type":"int",
+              "unit":"deg",
+              "label":"Degrees",
+              "value":"315"
+            }
+          ]
+        }
+      },
+      "windChill":{
+        "name":"Wind Chill",
+        "type":"Temperature",
+        "time":"2020-08-31 17:45:19 +0100",
+        "unit":"C",
+        "values":[
+          {
+            "type":"float",
+            "unit":"F",
+            "label":"Fahrenheit",
+            "value":"58.5"
+          },
+          {
+            "type":"float",
+            "unit":"C",
+            "label":"Celsius",
+            "value":"14.7"
+          }
+        ],
+        "minValueToday":{
+          "time":"2020-08-31 00:49:50 +0100",
+          "values":[
+            {
+              "type":"float",
+              "unit":"F",
+              "label":"Fahrenheit",
+              "value":"43.0"
+            },
+            {
+              "type":"float",
+              "unit":"C",
+              "label":"Celsius",
+              "value":"6.1"
+            }
+          ]
+        },
+        "maxValueToday":{
+          "time":"2020-08-31 14:31:11 +0100",
+          "values":[
+            {
+              "type":"float",
+              "unit":"F",
+              "label":"Fahrenheit",
+              "value":"63.9"
+            },
+            {
+              "type":"float",
+              "unit":"C",
+              "label":"Celsius",
+              "value":"17.7"
+            }
+          ]
+        }
+      },
+      "dayRain":{
+        "name":"Day Rain",
+        "type":"Length",
+        "time":"2020-08-30 00:00:00 +0100",
+        "unit":"mm",
+        "values":[
+          {
+            "type":"float",
+            "unit":"in",
+            "label":"Inches",
+            "value":"0.00"
+          },
+          {
+            "type":"float",
+            "unit":"mi",
+            "label":"Miles",
+            "value":"0.0"
+          },
+          {
+            "type":"float",
+            "unit":"mm",
+            "label":"Millimeters",
+            "value":"0.0"
+          },
+          {
+            "type":"float",
+            "unit":"cm",
+            "label":"Centimeters",
+            "value":"0.0"
+          },
+          {
+            "type":"float",
+            "unit":"km",
+            "label":"Kilometers",
+            "value":"0.0"
+          }
+        ],
+        "minValueToday":{
+          "time":"2020-08-30 00:00:00 +0100",
+          "values":[
+            {
+              "type":"float",
+              "unit":"in",
+              "label":"Inches",
+              "value":"0.00"
+            },
+            {
+              "type":"float",
+              "unit":"mi",
+              "label":"Miles",
+              "value":"0.0"
+            },
+            {
+              "type":"float",
+              "unit":"mm",
+              "label":"Millimeters",
+              "value":"0.0"
+            },
+            {
+              "type":"float",
+              "unit":"cm",
+              "label":"Centimeters",
+              "value":"0.0"
+            },
+            {
+              "type":"float",
+              "unit":"km",
+              "label":"Kilometers",
+              "value":"0.0"
+            }
+          ]
+        },
+        "maxValueToday":{
+          "time":"2020-08-30 00:00:00 +0100",
+          "values":[
+            {
+              "type":"float",
+              "unit":"in",
+              "label":"Inches",
+              "value":"0.00"
+            },
+            {
+              "type":"float",
+              "unit":"mi",
+              "label":"Miles",
+              "value":"0.0"
+            },
+            {
+              "type":"float",
+              "unit":"mm",
+              "label":"Millimeters",
+              "value":"0.0"
+            },
+            {
+              "type":"float",
+              "unit":"cm",
+              "label":"Centimeters",
+              "value":"0.0"
+            },
+            {
+              "type":"float",
+              "unit":"km",
+              "label":"Kilometers",
+              "value":"0.0"
+            }
+          ]
+        }
+      },
+      "totalRain":{
+        "name":"Total Rain",
+        "type":"Length",
+        "time":"2020-08-29 18:54:32 +0100",
+        "unit":"mm",
+        "values":[
+          {
+            "type":"float",
+            "unit":"in",
+            "label":"Inches",
+            "value":"0.43"
+          },
+          {
+            "type":"float",
+            "unit":"mi",
+            "label":"Miles",
+            "value":"0.4"
+          },
+          {
+            "type":"float",
+            "unit":"mm",
+            "label":"Millimeters",
+            "value":"10.8"
+          },
+          {
+            "type":"float",
+            "unit":"cm",
+            "label":"Centimeters",
+            "value":"1.1"
+          },
+          {
+            "type":"float",
+            "unit":"km",
+            "label":"Kilometers",
+            "value":"0.0"
+          }
+        ],
+        "minValueToday":{
+          "time":"2020-08-30 00:00:00 +0100",
+          "values":[
+            {
+              "type":"float",
+              "unit":"in",
+              "label":"Inches",
+              "value":"0.43"
+            },
+            {
+              "type":"float",
+              "unit":"mi",
+              "label":"Miles",
+              "value":"0.4"
+            },
+            {
+              "type":"float",
+              "unit":"mm",
+              "label":"Millimeters",
+              "value":"10.8"
+            },
+            {
+              "type":"float",
+              "unit":"cm",
+              "label":"Centimeters",
+              "value":"1.1"
+            },
+            {
+              "type":"float",
+              "unit":"km",
+              "label":"Kilometers",
+              "value":"0.0"
+            }
+          ]
+        },
+        "maxValueToday":{
+          "time":"2020-08-30 00:00:00 +0100",
+          "values":[
+            {
+              "type":"float",
+              "unit":"in",
+              "label":"Inches",
+              "value":"0.43"
+            },
+            {
+              "type":"float",
+              "unit":"mi",
+              "label":"Miles",
+              "value":"0.4"
+            },
+            {
+              "type":"float",
+              "unit":"mm",
+              "label":"Millimeters",
+              "value":"10.8"
+            },
+            {
+              "type":"float",
+              "unit":"cm",
+              "label":"Centimeters",
+              "value":"1.1"
+            },
+            {
+              "type":"float",
+              "unit":"km",
+              "label":"Kilometers",
+              "value":"0.0"
+            }
+          ]
+        }
+      },
+      "solarRadiation":{
+        "name":"Solar Radiation",
+        "type":"Radiation",
+        "time":"2020-08-29 11:45:31 +0100",
+        "unit":"wm2",
+        "values":[
+          {
+            "type":"float",
+            "unit":"wm2",
+            "label":"Watts Per Square Meter",
+            "value":"-9999.0"
+          }
+        ],
+        "minValueToday":{
+          "time":"2020-08-30 00:00:00 +0100",
+          "values":[
+            {
+              "type":"float",
+              "unit":"wm2",
+              "label":"Watts Per Square Meter",
+              "value":"-9999.0"
+            }
+          ]
+        },
+        "maxValueToday":{
+          "time":"2020-08-30 00:00:00 +0100",
+          "values":[
+            {
+              "type":"float",
+              "unit":"wm2",
+              "label":"Watts Per Square Meter",
+              "value":"-9999.0"
+            }
+          ]
+        }
+      },
+      "uvIndex":{
+        "name":"UV Index",
+        "type":"Numeric",
+        "time":"2020-08-29 11:45:31 +0100",
+        "unit":"-",
+        "values":[
+          {
+            "type":"float",
+            "unit":"-",
+            "label":"Numeric",
+            "value":"-9999.0"
+          }
+        ],
+        "minValueToday":{
+          "time":"2020-08-30 00:00:00 +0100",
+          "values":[
+            {
+              "type":"float",
+              "unit":"-",
+              "label":"Numeric",
+              "value":"-9999.0"
+            }
+          ]
+        },
+        "maxValueToday":{
+          "time":"2020-08-30 00:00:00 +0100",
+          "values":[
+            {
+              "type":"float",
+              "unit":"-",
+              "label":"Numeric",
+              "value":"-9999.0"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
